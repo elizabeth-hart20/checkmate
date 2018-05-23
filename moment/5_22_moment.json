@@ -1,0 +1,522 @@
+{
+  "days" : [
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 110,
+      "pickupCount" : 93,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-22T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 172,
+      "pickupCount" : 120,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-21T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 196,
+      "pickupCount" : 125,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-20T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 283,
+      "pickupCount" : 167,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-19T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 239,
+      "pickupCount" : 264,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-18T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 165,
+      "pickupCount" : 178,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-17T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 206,
+      "pickupCount" : 146,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-16T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 221,
+      "pickupCount" : 132,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-15T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 153,
+      "pickupCount" : 120,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-14T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 199,
+      "pickupCount" : 130,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-13T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 252,
+      "pickupCount" : 146,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-12T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 165,
+      "pickupCount" : 130,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-11T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 190,
+      "pickupCount" : 120,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-10T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 186,
+      "pickupCount" : 160,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-09T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 147,
+      "pickupCount" : 81,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-08T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 216,
+      "pickupCount" : 145,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-07T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 225,
+      "pickupCount" : 148,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-06T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 220,
+      "pickupCount" : 180,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-05T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 117,
+      "pickupCount" : 101,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-04T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 127,
+      "pickupCount" : 103,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-03T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 170,
+      "pickupCount" : 121,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-02T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 72,
+      "pickupCount" : 78,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-01T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 210,
+      "pickupCount" : 143,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-30T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 196,
+      "pickupCount" : 144,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-29T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 250,
+      "pickupCount" : 134,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-28T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 131,
+      "pickupCount" : 101,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-27T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 179,
+      "pickupCount" : 136,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-26T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 163,
+      "pickupCount" : 142,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-25T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 154,
+      "pickupCount" : 74,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-24T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 135,
+      "pickupCount" : 97,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-23T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 194,
+      "pickupCount" : 113,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-22T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 176,
+      "pickupCount" : 131,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-21T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 62,
+      "pickupCount" : 67,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-20T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 165,
+      "pickupCount" : 140,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-19T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 112,
+      "pickupCount" : 115,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-18T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 215,
+      "pickupCount" : 115,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-17T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 91,
+      "pickupCount" : 63,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-16T00:00:00-04:00"
+    }
+  ]
+}

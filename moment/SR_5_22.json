@@ -1,0 +1,88 @@
+{
+  "days" : [
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 133,
+      "pickupCount" : 94,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-22T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 266,
+      "pickupCount" : 83,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-21T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 197,
+      "pickupCount" : 103,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-20T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 128,
+      "pickupCount" : 137,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-19T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 150,
+      "pickupCount" : 165,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-18T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 100,
+      "pickupCount" : 109,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-05-17T00:00:00-04:00"
+    }
+  ]
+}

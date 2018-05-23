@@ -1,0 +1,32 @@
+{
+  "days" : [
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 89,
+      "pickupCount" : 69,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-25T00:00:00-04:00"
+    },
+    {
+      "sessions" : [
+
+      ],
+      "minuteCount" : 154,
+      "pickupCount" : 74,
+      "pickups" : [
+
+      ],
+      "appUsages" : [
+
+      ],
+      "date" : "2018-04-24T00:00:00-04:00"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <script>
+      ID = -1;
+      cart = [];
+      names = ["dolor", "sit", "amet", "consectetuer", "adipiscing", "elit", "aenean", "commodo"]; 
+      prices = [0.99, 1.99, 2.99, 3.99, 0.99, 0.89, 0.79, 0.69]; 
+      descriptions = ["Aenean massa", "Cum sociis natoque penatibus et magnis dis parturient montes", "nascetur ridiculus mus", "Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem", "Nulla consequat massa quis enim", "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo"];
+
+      function showProduct( id ) {
+          ID = id; /* need this when adding to cart */
+          document.getElementById("productName").innerHTML = names[id];
+          document.getElementById("productDesc").innerHTML = descriptions[id];
+          document.getElementById("productPrice").innerHTML = "$" + prices[id];
+          document.getElementById("product").style.display = "inline";
+          window.location = "#product";
+      }
+
+      function addToCart() {
+         /* add current product to cart */
+         cart.push( ID );
+
+         /* build cart */
+         var total = 0;
+         var cartStr = "<ol>";
+         var itemsStr = "";
+         for( var i=0 ; i<cart.length; i++ ) {
+            cartStr += "<li> " + names[cart[i]] + " ($" + prices[cart[i]] + ")";
+            itemsStr +=  names[cart[i]] + " "; /* assumes no spaces in name */
+            total += prices[cart[i]];
+         }
+         cartStr += "</ol>";
+         cartStr += "total: $" + total.toFixed(2); + "<br>";
+         document.getElementById("cartList").innerHTML = cartStr;
+
+         /* add cart to hidden input field in form */
+         document.getElementById("hiddenCartList").value = cartStr;
+
+         /* add total to hidden input field in form */
+         document.getElementById("hiddenCartTotal").value = total.toFixed(2);
+
+         /* add item count  to hidden input field in form */
+         document.getElementById("hiddenCartCount").value = cart.length;
+         
+         /* add ordered items   to hidden input field in form */
+         document.getElementById("hiddenItems").value = itemsStr;
+
+
+         /* show and jump to div */
+         document.getElementById("cart").style.display = "inline";
+         window.location = "#cart";
+      }
+
+      function checkOut() {
+          /* show and jump to div */
+          document.getElementById("checkout").style.display = "inline";
+          window.location = "#checkout";
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- STOREFRONT -------------------- -->
+    <a href="#storefront"></a>
+    <div id="storefront">
+      <h2> Widgets </h2>
+      <table>
+	<tr> 
+	  <td> <img src="widget.png" onClick="showProduct(0)"> <br> <span id="product0"></span> </td> 
+	  <td> <img src="widget.png" onClick="showProduct(1)"> <br> <span id="product1"></span> </td> 
+	  <td> <img src="widget.png" onClick="showProduct(2)"> <br> <span id="product2"></span> </td> 
+	  <td> <img src="widget.png" onClick="showProduct(3)"> <br> <span id="product3"></span> </td> 
+	</tr>
+	<tr> 
+	  <td> <img src="widget.png" onClick="showProduct(4)"> <br> <span id="product4"></span> </td> 
+	  <td> <img src="widget.png" onClick="showProduct(5)"> <br> <span id="product5"></span> </td> 
+	  <td> <img src="widget.png" onClick="showProduct(6)"> <br> <span id="product6"></span> </td> 
+	  <td> <img src="widget.png" onClick="showProduct(7)"> <br> <span id="product7"></span> </td> 
+	</tr>
+      </table>
+    </div>
+
+    <!-- PRODUCT -------------------- -->
+    <a href="#product"></a>
+    <div id="product">
+      <h2> Product Details </h2>
+      <table>
+	<tr> <td rowspan=5> <img src="widget.png"> </td> </tr>
+	<tr> <td> <span id="productName"> </span> </td> </tr>
+	<tr> <td> <span id="productDesc"> </span> </td> </tr>
+	<tr> <td> <span id="productPrice"> </span> </td> </tr>
+	<tr> <td> <button onClick="addToCart()"> add to cart </button> </td> </tr>
+      </table>
+    </div>
+
+    <!-- CART -------------------- -->
+    <a href="#cart"></a>
+    <div id="cart">
+      <h2> Cart </h2>
+      <span id="cartList"> </span>
+      <button onClick="checkOut()"> checkout </button>
+    </div>
+
+    <!-- CHECKOUT -------------------- -->
+    <a href="#checkout"></a>
+    <div id="checkout">
+      <h2> Checkout </h2>
+
+      <form  action="processOrder.php" method="POST">
+        	<input type="hidden" id="hiddenCartList" name="hiddenCartList">
+        	<input type="hidden" id="hiddenCartTotal" name="hiddenCartTotal">
+        	<input type="hidden" id="hiddenCartCount" name="hiddenCartCount">
+        	<input type="hidden" id="hiddenItems" name="hiddenItems">
+	        <table>
+	        <tr>
+	          <td>name:</td> <td> <input name="name" type="text" size="30"> </td>
+	        </tr>
+	        <tr>
+	          <td>address:</td> <td> <input name="addr1" type="text" size="30"> </td>
+	        </tr>
+	        <tr>
+	          <td>address:</td> <td><input name="addr2" type="text" size="30"> </td>
+	        </tr>
+	        <tr>
+	          <td>address:</td> <td> <input name="addr3" type="text" size="30"> </td>
+	        </tr>
+	        <tr>
+	          <td>email:</td> <td> <input name="email" type="text" size="30"> </td>
+	        </tr>
+	        <tr>
+	          <td>payment:</td> <td> <input name="payment" type="text" size="30"> </td>
+	        </tr>
+    	     <tr> 
+    	      <td> <button type="submit">checkout</button> </td>
+    	    </tr>
+	      </table>
+      </form>
+    </div>
+
+  </body>
+
+  <script>
+    /* hide sections until we need them */
+    document.getElementById("product").style.display = "none";
+    document.getElementById("cart").style.display = "none";
+    document.getElementById("checkout").style.display = "none";
+
+    /* populate names in storefront */
+    for( var i=0 ; i<names.length; i++ ) {
+       var id = "product" + i;
+       document.getElementById(id).innerHTML = names[i];
+    }
+  </script>
+</html>
+
